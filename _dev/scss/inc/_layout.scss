@@ -1,0 +1,38 @@
+/**
+ * Created by Pompo on 07.05.2017.
+ */
+
+img{
+  max-width: 100%;
+}
+
+a{
+  outline: none !important;
+}
+
+body{
+  background-color: $bg-color;
+  font-size: 16px;
+  font-family: $PT-Sans;
+  color: $black;
+}
+
+p{
+  line-height: 1.5;
+}
+
+.c-wrap{
+  max-width: 1020px;
+  min-width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+
+  @extend %clearfix;
+}
+
+.header{
+
+}

@@ -1,0 +1,12 @@
+/**
+ * Created by Pompo on 06.05.2017.
+ */
+
+%clearfix{
+
+  &:after{
+    clear: both;
+    content: '';
+    display: table;
+  }
+}

@@ -1,0 +1,1 @@
+function swiperInit(){new Swiper(".swiper-container",{loop:!0,pagination:".swiper-pagination",nextButton:".swiper-button-next",prevButton:".swiper-button-prev"}),new Swiper(".swiper-doctor",{nextButton:".swiper-button-next",prevButton:".swiper-button-prev"})}$(document).ready(function(){swiperInit()});
