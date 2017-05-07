@@ -1,0 +1,46 @@
+/**
+ * Created by Pompo on 07.05.2017.
+ */
+.card{
+  background-color: $white;
+  border-radius: .5rem;
+  text-decoration: none;
+  transition: box-shadow ease .3s;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+
+  &:hover{
+    box-shadow: 0 3px 16px rgba(0,0,0,.35);
+  }
+
+  &__img img{
+    border-radius: .5rem .5rem 0 0;
+    transition: transform ease .6s;
+  }
+
+  &__img{
+    border-radius: .5rem .5rem 0 0;
+    overflow: hidden;
+
+    & img{
+      min-width: 100%;
+    }
+  }
+
+  &__body{
+    padding: 20px;
+  }
+
+  &__title{
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: $main-color;
+    font-weight: 700;
+  }
+
+  &__txt{
+    color: $black;
+    font-size: .8rem;
+    padding-top: 1em;
+  }
+}

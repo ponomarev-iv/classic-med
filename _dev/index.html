@@ -2,9 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Клиника классической медицины</title>
-    <link href="https://fonts.googleapis.com/css?family=Lora:700|Marck+Script|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="libs/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:700|Marck+Script|PT+Sans:400,700&amp;subset=cyrillic"
+          rel="stylesheet">
+    <!--<link rel="stylesheet" href="libs/swiper.min.css">-->
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
@@ -16,34 +19,34 @@
 <!-- START about -->
 <section class="about">
     <div class="c-wrap">
-        <h1 class="section-title">
-            Клиника классической медицины
-        </h1>
+        <div class="about__wrap">
+            <div class="about__slider">
 
-        <div class="about__slider">
-            <div class="slider">
-                <div class="c-wrap">
-                    <div class="swiper-container">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide"><img src="img/slide1.jpg" alt="классический массаж"></div>
-                            <div class="swiper-slide"><img src="img/slide2.jpg" alt="оздоровительный массаж"></div>
-                            <div class="swiper-slide"><img src="img/slide3.jpg" alt="медицинский массаж"></div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="img/slide1.jpg" alt="классический массаж"></div>
+                        <div class="swiper-slide"><img src="img/slide2.jpg" alt="оздоровительный массаж"></div>
+                        <div class="swiper-slide"><img src="img/slide3.jpg" alt="медицинский массаж"></div>
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-            </div>
-        </div>
 
-        <div class="about__txt">
-            <p>Первый пермский краевой специализированный вертебро-неврологический центр.</p>
-            <p>Здесь проводится консультативный приём и&nbsp;лечение больных с&nbsp;заболеваниями нервной системы и&nbsp;позвоночника. В&nbsp;клинике используются передовые терапевтические методы.</p>
-            <p>Квалифицированные специалисты&nbsp;&mdash; врачи высшей категории и&nbsp;кандидаты медицинских наук, предлагают полный спектр услуг для лечения остеохондроза позвоночника, осложненного грыжей межпозвоночного диска, и&nbsp;лечение других неврологических заболеваний.</p>
+                <a href="#order-form" class="btn order-popup js-popup-form">Записаться на приём</a>
+
+            </div>
+            <div class="about__txt">
+                <h1 class="content-title">Клиника классической медицины</h1>
+                <p class="accent">Первый пермский краевой специализированный вертебро-неврологический центр.</p>
+                <p>Здесь проводится консультативный приём и&nbsp;лечение больных <strong>с&nbsp;заболеваниями нервной
+                    системы и&nbsp;позвоночника</strong>.
+                    В&nbsp;клинике используются передовые терапевтические методы.</p>
+                <p>Квалифицированные специалисты&nbsp;&mdash; врачи высшей категории и&nbsp;кандидаты медицинских наук,
+                    предлагают полный спектр услуг для <strong>лечения остеохондроза позвоночника, осложненного грыжей
+                        межпозвоночного диска</strong>, и&nbsp;лечение других <strong>неврологических
+                        заболеваний</strong>.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -52,39 +55,51 @@
 <!-- START service -->
 <section class="service">
     <div class="c-wrap">
-        <h2 class="content-title">Услуги клиники</h2>
+        <h2 class="section-title">Услуги клиники</h2>
 
-        <div class="service__row">
+
+        <div class="service__wrap">
+
             <a href="#" class="card">
                 <div class="card__img"><img src="img/girudoterapia.jpg" alt="Гирудотерапия"></div>
-                <h3 class="card__title">Гирудотерапия</h3>
+                <div class="card__body">
+                    <h3 class="card__title">Гирудотерапия</h3>
+                </div>
             </a>
 
             <a href="#" class="card">
                 <div class="card__img"><img src="img/igloterapia.jpg" alt="Иглотерапия"></div>
-                <h3 class="card__title">Иглотерапия</h3>
+                <div class="card__body">
+                    <h3 class="card__title">Иглотерапия</h3>
+                </div>
             </a>
 
             <a href="#" class="card">
                 <div class="card__img"><img src="img/manualnaja_terapia.jpg" alt="Мануальная терапия"></div>
-                <h3 class="card__title">Мануальная терапия</h3>
+                <div class="card__body">
+                    <h3 class="card__title">Мануальная терапия</h3>
+                </div>
             </a>
-        </div>
 
-        <div class="service__row">
             <a href="#" class="card">
                 <div class="card__img"><img src="img/massaj.jpg" alt="Массаж"></div>
-                <h3 class="card__title">Массаж</h3>
+                <div class="card__body">
+                    <h3 class="card__title">Массаж</h3>
+                </div>
             </a>
 
             <a href="#" class="card">
                 <div class="card__img"><img src="img/medikamentoznieblokadi.jpg" alt="Медикаментозные блокады"></div>
-                <h3 class="card__title">Медикаментозные блокады</h3>
+                <div class="card__body">
+                    <h3 class="card__title">Медикаментозные блокады</h3>
+                </div>
             </a>
 
             <a href="#" class="card">
                 <div class="card__img"><img src="img/ozon.jpg" alt="Озонотерапия"></div>
-                <h3 class="card__title">Озонотерапия</h3>
+                <div class="card__body">
+                    <h3 class="card__title">Озонотерапия</h3>
+                </div>
             </a>
         </div>
 
@@ -96,7 +111,7 @@
 <!-- START doctor -->
 <section class="doctor">
     <div class="c-wrap">
-        <h4 class="content-title">Врачи клиники</h4>
+        <h4 class="section-title">Врачи клиники</h4>
 
         <div class="swiper-doctor">
             <!-- Additional required wrapper -->
@@ -104,11 +119,12 @@
                 <!-- Slides -->
                 <div class="swiper-slide">
                     <a href="#" class="card">
-                        <div class="card__img"><img src="img/zheltikov.jpg" alt="Жёлтиков Игорь Германович" /></div>
+                        <div class="card__img"><img src="img/zheltikov.jpg" alt="Жёлтиков Игорь Германович"/></div>
                         <div class="card__body">
                             <h5 class="card__title">Жёлтиков Игорь Германович</h5>
                             <p class="card__txt">
-                                Работал в&nbsp;клинике неврологии ОКБ (ПККБ) более 20&nbsp;лет. В&nbsp;августе 2009 года с&nbsp;его участием открыта &laquo;Клиника классической медицины&raquo;.
+                                Работал в&nbsp;клинике неврологии ОКБ (ПККБ) более 20&nbsp;лет. В&nbsp;августе 2009 года
+                                с&nbsp;его участием открыта &laquo;Клиника классической медицины&raquo;.
                             </p>
                         </div>
                     </a>
@@ -116,11 +132,12 @@
 
                 <div class="swiper-slide">
                     <a href="#" class="card">
-                        <div class="card__img"><img src="img/utochkin.jpg" alt="Уточкин Валериан Михайлович" /></div>
+                        <div class="card__img"><img src="img/utochkin.jpg" alt="Уточкин Валериан Михайлович"/></div>
                         <div class="card__body">
                             <h5 class="card__title">Уточкин Валериан Михайлович</h5>
                             <p class="card__txt">
-                                В&nbsp;своей деятельности опираюсь на&nbsp;современную диагностику и&nbsp;лечение. Без приоритета использую все методы применяемые в&nbsp;нашем центре.
+                                В&nbsp;своей деятельности опираюсь на&nbsp;современную диагностику и&nbsp;лечение. Без
+                                приоритета использую все методы применяемые в&nbsp;нашем центре.
                             </p>
                         </div>
                     </a>
@@ -128,11 +145,13 @@
 
                 <div class="swiper-slide">
                     <a href="#" class="card">
-                        <div class="card__img"><img src="img/mihalev.jpg" alt="Михалёв Александр Алексеевич" /></div>
+                        <div class="card__img"><img src="img/mihalev.jpg" alt="Михалёв Александр Алексеевич"/></div>
                         <div class="card__body">
                             <h5 class="card__title">Михалёв Александр Алексеевич</h5>
                             <p class="card__txt">
-                                Кроме медикаментозных блокад, в&nbsp;своей работе использую: электропунктурную диагностику, гирудотерапию, иглорефлексотерапию (корпоральную, аурикулярную, краниальную).
+                                Кроме медикаментозных блокад, в&nbsp;своей работе использую: электропунктурную
+                                диагностику, гирудотерапию, иглорефлексотерапию (корпоральную, аурикулярную,
+                                краниальную).
                             </p>
                         </div>
                     </a>
@@ -140,7 +159,7 @@
 
                 <div class="swiper-slide">
                     <a href="#" class="card">
-                        <div class="card__img"><img src="img/dobrenkiy.jpg" alt="Добренький Олег Аркадьевич" /></div>
+                        <div class="card__img"><img src="img/dobrenkiy.jpg" alt="Добренький Олег Аркадьевич"/></div>
                         <div class="card__body">
                             <h5 class="card__title">Добренький Олег Аркадьевич</h5>
                             <p class="card__txt">
@@ -153,7 +172,7 @@
 
                 <div class="swiper-slide">
                     <a href="#" class="card">
-                        <div class="card__img"><img src="img/karavaev.jpg" alt="Караваев Александр Михайлович" /></div>
+                        <div class="card__img"><img src="img/karavaev.jpg" alt="Караваев Александр Михайлович"/></div>
                         <div class="card__body">
                             <h5 class="card__title">Караваев Александр Михайлович</h5>
                             <p class="card__txt">
@@ -166,11 +185,12 @@
 
                 <div class="swiper-slide">
                     <a href="#" class="card">
-                        <div class="card__img"><img src="img/krivochekova.jpg" alt="Кривощекова Ольга Федоровна" /></div>
+                        <div class="card__img"><img src="img/krivochekova.jpg" alt="Кривощекова Ольга Федоровна"/></div>
                         <div class="card__body">
                             <h5 class="card__title">Кривощекова Ольга Федоровна</h5>
                             <p class="card__txt">
-                                Сфера научных интересов: лечение болезни Альцгеймера ингибиторами холинэстеразы в&nbsp;сочетании с&nbsp;нейротрофическими препаратами.
+                                Сфера научных интересов: лечение болезни Альцгеймера ингибиторами холинэстеразы в&nbsp;сочетании
+                                с&nbsp;нейротрофическими препаратами.
                             </p>
                         </div>
                     </a>
@@ -185,10 +205,11 @@
 <!-- END doctor -->
 
 //= include/footer.html
+//= include/order-popup.html
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="libs/swiper.min.js"></script>
+<script src="libs/magnific.min.js"></script>
 <script src="js/main.js"></script>
-
 </body>
 </html>

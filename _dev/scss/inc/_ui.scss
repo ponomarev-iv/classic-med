@@ -1,0 +1,82 @@
+/**
+ * Created by Pompo on 07.05.2017.
+ */
+
+//button
+.btn{
+  display: inline-block;
+  border-radius: 999em;
+  border: 2px solid $white;
+  box-shadow: 0 1px 10px rgba(0,0,0,.2);
+  padding: .75em 1em;
+  box-sizing: border-box;
+  background-color: $main-color;
+  color: $white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  line-height: 1.2;
+  transition: all ease .3s;
+
+  &:hover{
+    background-color: #5bcada;
+    box-shadow: 0 3px 16px rgba(0,0,0,.35);
+  }
+}
+
+//form
+.form{
+  background-color: $white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: .75rem;
+
+  @include respondTo(small){
+    padding: 20px;
+  }
+
+  &__row{
+    @extend %clearfix;
+
+    margin-top: 1rem;
+  }
+
+  & label{
+    display: block;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: .5rem;
+  }
+
+  & input{
+    width: 100%;
+    height: 3rem;
+    padding: .35em;
+    color: $black;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    border-radius: .35rem;
+  }
+
+  &__title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: $Lora;
+
+    @include respondTo(small){
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.btn-form{
+  min-width: 240px;
+  cursor: pointer;
+
+  @include respondTo(small){
+    width: 100%;
+  }
+}

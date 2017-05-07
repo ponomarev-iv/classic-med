@@ -1,10 +1,20 @@
 /**
  * Created by Pompo on 06.05.2017.
  */
-
 @import "inc/reset";
 @import "inc/_var";
 @import "inc/_plh";
 @import "inc/_media-mixin";
+@import "inc/_ui";
 @import "inc/_layout";
 @import "inc/header";
+@import "inc/navigation";
+@import "inc/block";
+@import "inc/footer";
+
+//plugins
+@import "inc/magnific";
+@import "inc/swiper";
+
+//перебивка
+@import "inc/helpers";

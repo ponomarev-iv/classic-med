@@ -19,6 +19,16 @@ body{
 
 p{
   line-height: 1.5;
+  margin-bottom: .75em;
+
+  &:last-of-type,
+  &.last{
+    margin-bottom: 0;
+  }
+}
+
+strong{
+  font-weight: 700;
 }
 
 .c-wrap{
@@ -33,6 +43,145 @@ p{
   @extend %clearfix;
 }
 
-.header{
+//section
+.section-title{
+  font-family: $Lora;
+  font-size: 2rem;
+  color: $black;
+  margin-bottom: .75em;
+}
 
+.content-title{
+  @extend .section-title;
+
+  font-size: 1.5rem;
+}
+
+.about{
+  padding: 3rem 0;
+
+  &__wrap{
+    @extend %clearfix;
+  }
+  
+  &__slider{
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    @include respondTo(tablet){
+      width: 100%;
+      float: none;
+    }
+
+    & .order-popup{
+      margin: 1rem auto;
+
+    }
+  }
+  
+  &__txt{
+    width: 50%;
+    float: left;
+    padding-left: 2rem;
+    box-sizing: border-box;
+
+    @include respondTo(tablet){
+      width: 100%;
+      float: none;
+      padding-left: 0;
+    }
+  }
+
+  & .swiper-slide img{
+    border-radius: .5rem;
+    border: 2px solid $white;
+    box-sizing: border-box;
+  }
+}
+
+.service{
+  padding: 3rem 0;
+  text-align: center;
+
+  @include respondTo(small){
+    padding: 2rem 0;
+  }
+
+  &__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: .75rem;
+
+    & .card{
+      width: 30%;
+
+      &:hover{
+        & .card__img img{
+          transform: scale(1.1);
+        }
+      }
+
+      @include respondTo(mobile){
+        width: 48%;
+      }
+
+      @include respondTo(small){
+        width: 100%;
+
+        & .card__img img{
+          min-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.doctor{
+  padding: 3rem 0;
+  text-align: center;
+
+  @include respondTo(small){
+    padding: 2rem 0;
+  }
+
+
+  & .c-wrap{
+    max-width: 980px;
+
+    @include respondTo(desktop){
+      max-width: 940px;
+    }
+
+    @include respondTo(tablet){
+      max-width: 728px;
+    }
+
+    @include respondTo(mobile){
+      max-width: 440px;
+    }
+  }
+
+  & .card{
+    text-align: left;
+  }
+
+  & .card__body{
+    height: 195px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    
+    &:after{
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 40px;
+      background: linear-gradient(to top, #ffffff 50%, rgba(255,255,255,.1));
+      border-radius: 0 0 .5rem .5rem;
+    }
+  }
 }

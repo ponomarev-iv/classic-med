@@ -1,0 +1,87 @@
+/**
+ * Created by Pompo on 07.05.2017.
+ */
+.footer{
+  background: $main-color linear-gradient(to bottom, #5bcada, #42b4c4);
+  padding: 20px 0;
+
+  &__row{
+    @extend %clearfix;
+  }
+  
+  &__col{
+    width: 50%;
+    float: left;
+
+    @include respondTo(small){
+      width: 100%;
+      float: none;
+    }
+
+    &:nth-child(2){
+      text-align: right;
+
+      @include respondTo(small){
+        text-align: left;
+        margin-top: 1rem;
+      }
+    }
+
+    & .btn{
+      background-color: $white;
+      color: $main-color;
+      border-color: $main-color;
+    }
+  }
+
+  &__nav{
+    list-style: none;
+
+    & a{
+      color: $white;
+      text-decoration: none;
+      line-height: 1.5;
+    }
+  }
+
+  &__txt{
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,.8);
+    color: $black;
+    font-weight: 700;
+    display: inline-block;
+    padding: .5em;
+
+    @include respondTo(mobile){
+      font-size: .8rem;
+    }
+  }
+
+  &__phone{
+    white-space: nowrap;
+    color: $white;
+    display: inline-block;
+    text-decoration: none;
+
+    & span{
+      font-size: 1.2em;
+    }
+  }
+
+  &__location{
+    white-space: nowrap;
+    color: $white;
+    margin-top: .5rem;
+    font-size: 1.1em;
+  }
+}
+
+.copyright{
+  margin-top: 1rem;
+  font-size: .75rem;
+  white-space: nowrap;
+
+  @include respondTo(small){
+    font-size: .6rem;
+  }
+}

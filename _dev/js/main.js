@@ -5,22 +5,71 @@
 function swiperInit(){
     var mySwiper = new Swiper ('.swiper-container', {
         // Optional parameters
-        loop: true,
+        autoplay: 4000,
 
         // If we need pagination
         pagination: '.swiper-pagination',
-
-        // Navigation arrows
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
-    })
+        paginationClickable: true
+    });
 
     var mySwiper = new Swiper ('.swiper-doctor', {
+        slidesPerView: 4,
+        spaceBetween: 20,
+
+        breakpoints: {
+            // when window width is <= 320px
+            480: {
+                slidesPerView: 1
+            },
+            // when window width is <= 480px
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            // when window width is <= 640px
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            }
+        },
+
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev'
     })
 }
 
+function mobileMenu(){
+    var $mobileBtn = $('.js-mobile'),
+        $mobileMenu = $('.js-mobile-menu');
+    $mobileBtn.click(function(){
+        $(this).toggleClass('open');
+        $mobileMenu.toggleClass('is-open');
+    })
+
+}
+
+function popupForm(){
+    $('.js-popup-form').magnificPopup({
+        type: 'inline',
+        preloader: false,
+        focus: '#name',
+
+        // When elemened is focused, some mobile browsers in some cases zoom in
+        // It looks not nice, so we disable it:
+        callbacks: {
+            beforeOpen: function() {
+                if($(window).width() < 700) {
+                    this.st.focus = false;
+                } else {
+                    this.st.focus = '#name';
+                }
+            }
+        }
+    });
+}
+
 $(document).ready(function(){
     swiperInit();
+    mobileMenu();
+    popupForm();
 });
