@@ -61,6 +61,17 @@
     border-radius: .35rem;
   }
 
+  & textarea{
+    resize: none;
+    width: 100%;
+    padding: .35em;
+    color: $black;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    border-radius: .35rem;
+  }
+
   &__title{
     font-size: 2rem;
     margin-bottom: 1rem;

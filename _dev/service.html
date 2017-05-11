@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Услуги клиники классической медицины</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:700|Marck+Script|PT+Sans:400,700&amp;subset=cyrillic"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+//= include/header.html
+
+<nav class="navigation">
+    <div class="c-wrap">
+        <div class="navigation__wrap">
+            <a href="/">О клинике</a>
+            <a href="/doctors.html">Врачи</a>
+            <a href="/service.html" class="is-active">Услуги</a>
+            <a href="/price.html">Цены</a>
+            <a href="/helpful.html">Полезное</a>
+            <a href="/contact.html">Контакты</a>
+        </div>
+    </div>
+</nav>
+
+<!-- START price -->
+<section class="service-section">
+    <div class="c-wrap">
+        <h1 class="section-title">Услуги клиники</h1>
+        <div class="service__wrap">
+           //= include/service.html
+        <a href="#" class="card">
+            <div class="card__img"><img src="img/karboxiterapia.jpg" alt="Карбокситерапия"></div>
+            <div class="card__body">
+                <h3 class="card__title">Карбокситерапия</h3>
+            </div>
+        </a>
+
+        <a href="#" class="card">
+            <div class="card__img"><img src="img/magnitoterapia.jpg" alt="Магнитотерапия"></div>
+            <div class="card__body">
+                <h3 class="card__title">Магнитотерапия</h3>
+            </div>
+        </a>
+
+        <a href="#" class="card">
+            <div class="card__img"><img src="img/terapia_pozvonochnika.jpg" alt="Тракционная терапия позвоночника"></div>
+            <div class="card__body">
+                <h3 class="card__title">Тракционная терапия позвоночника</h3>
+            </div>
+        </a>
+
+        <a href="#" class="card">
+            <div class="card__img"><img src="img/electrostimul.jpg" alt="Электронейростимуляция"></div>
+            <div class="card__body">
+                <h3 class="card__title">Электронейростимуляция</h3>
+            </div>
+        </a>
+
+        <a href="#" class="card">
+            <div class="card__img"><img src="img/electro_farez.jpg" alt="Электрофорез"></div>
+            <div class="card__body">
+                <h3 class="card__title">Электрофорез</h3>
+            </div>
+        </a>
+        </div>
+    </div>
+</section>
+
+<!-- END doctor-item -->
+
+//= include/footer.html
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="libs/swiper.min.js"></script>
+<script src="libs/magnific.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
