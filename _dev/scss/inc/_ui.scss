@@ -91,3 +91,110 @@
     width: 100%;
   }
 }
+
+.link-doc{
+  position: relative;
+  padding-left: 45px;
+  color: $black;
+  display: block;
+  line-height: 1.5;
+  transition: color ease .3s;
+  text-decoration: underline;
+  margin-bottom: 1.5em;
+
+  @include respondTo(mobile){
+    font-size: .85em;
+    padding-left: 35px;
+  }
+
+  &:hover{
+    color: $main-color;
+
+    &:before{
+      background-color: transparent;
+      color: $main-color;
+      border-color: inherit;
+    }
+  }
+
+  &:before{
+    position: absolute;
+    content: 'doc';
+    text-transform: uppercase;
+    color: #fff;
+    font-size: .7em;
+    border-radius: 50%;
+    background-color: $main-color;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    left: 0;
+    top: 0;
+    border: 1px solid $main-color;
+    transition: all ease .3s;
+
+    @include respondTo(mobile){
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      font-size: .6em;
+    }
+  }
+}
+
+.link-xls{
+  @extend .link-doc;
+
+  &:before{
+    content: 'xls';
+  }
+}
+
+.link-pdf{
+  @extend .link-doc;
+
+  &:before{
+    content: 'pdf';
+  }
+}
+
+.link-link{
+  @extend .link-doc;
+
+  &:before{
+    content: '>>';
+  }
+}
+
+.txt-list{
+  list-style: none;
+  margin: 0 0 2rem 1rem;
+
+  @include respondTo(small){
+    margin-left: 0;
+  }
+
+  & li{
+    position: relative;
+    padding-left: 20px;
+    font-size: 1rem;
+    padding-bottom: .5em;
+    font-weight: 600;
+
+    &:last-of-type{
+      padding-bottom: 0;
+    }
+
+    &:before{
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 0;
+      border-radius: 50%;
+      background-color: $black;
+      width: 4px;
+      height: 4px;
+    }
+  }
+}
