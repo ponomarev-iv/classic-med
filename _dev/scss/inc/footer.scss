@@ -4,6 +4,7 @@
 .footer{
   background: $main-color linear-gradient(to bottom, #5bcada, #42b4c4);
   padding: 20px 0;
+  flex: 0 0 auto;
 
   &__row{
     @extend %clearfix;

@@ -323,3 +323,19 @@
     }
   }
 }
+
+.sait-map{
+  display: flex;
+  flex-direction: column;
+
+  &__link{
+    color: $main-color;
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+    &_second{
+      font-size: 1rem;
+      padding-left: 1.5rem;
+    }
+  }
+}

@@ -174,6 +174,19 @@
                 </div>
 
                 <div class="swiper-slide">
+                    <a href="doctors.html#krivoshekova" class="card">
+                        <div class="card__img"><img src="img/krivochekova.jpg" alt="Кривощекова Ольга Федоровна"/></div>
+                        <div class="card__body">
+                            <h5 class="card__title">Кривощекова Ольга Федоровна</h5>
+                            <p class="card__txt">
+                                Сфера научных интересов: лечение болезни Альцгеймера ингибиторами холинэстеразы в&nbsp;сочетании
+                                с&nbsp;нейротрофическими препаратами.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
                     <a href="/doctors.html#mihalev" class="card">
                         <div class="card__img"><img src="img/mihalev.jpg" alt="Михалёв Александр Алексеевич"/></div>
                         <div class="card__body">
@@ -212,20 +225,6 @@
                         </div>
                     </a>
                 </div>
-
-                <div class="swiper-slide">
-                    <a href="doctors.html#krivoshekova" class="card">
-                        <div class="card__img"><img src="img/krivochekova.jpg" alt="Кривощекова Ольга Федоровна"/></div>
-                        <div class="card__body">
-                            <h5 class="card__title">Кривощекова Ольга Федоровна</h5>
-                            <p class="card__txt">
-                                Сфера научных интересов: лечение болезни Альцгеймера ингибиторами холинэстеразы в&nbsp;сочетании
-                                с&nbsp;нейротрофическими препаратами.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-
             </div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -243,11 +242,15 @@
                         <li><a href="/">О клинике</a></li>
                         <li><a href="service.html">Услуги</a></li>
                         <li><a href="doctors.html">Врачи</a></li>
+                        <li><a href="price.html">Цены</a></li>
                     </ul>
                     <ul>
-                        <li><a href="price.html">Цены</a></li>
                         <li><a href="helpful.html">Полезная инфомрация</a></li>
                         <li><a href="contact.html">Контактная информация</a></li>
+                        <li><a href="site-map.html">Карта сайта</a></li>
+                        <li>
+                            <div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'http://classic-med.ru/search.html','arrow':false,'bg':'transparent','fontsize':16,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск по classic-med.ru','suggest':true,'target':'_self','tld':'ru','type':3,'usebigdictionary':true,'searchid':2301235,'input_fg':'#333333','input_bg':'#f0efed','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту...','input_placeholderColor':'#333333','input_borderColor':'#ffffff'}"><form action="https://yandex.ru/search/site/" method="get" target="_self" accept-charset="utf-8"><input type="hidden" name="searchid" value="2301235"/><input type="hidden" name="l10n" value="ru"/><input type="hidden" name="reqenc" value=""/><input type="search" name="text" value=""/><input type="submit" value="Найти"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -263,11 +266,40 @@
         </p>
     </div>
 </footer>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter45021103 = new Ya.Metrika({
+                    id:45021103,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/45021103" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 <form id="order-form" class="mfp-hide form">
     <h5 class="form__title">Запись на приём</h5>
     <fieldset style="border:0;">
         <p class="accent">Заполните поля ниже и мы перезвоним Вам в ближайшее время.</p>
-        <p>Гарантируем сохраность ваших личных данных, <strong>не будем рассылвать рекламу</strong>.</p>
+        <p>Гарантируем сохраность ваших личных данных, <strong>не будем рассылать рекламу</strong>.</p>
         <div class="form__row">
             <label for="name">Имя*:</label>
             <input type="text" id="name" name="name" placeholder="Иван Петров" required />
@@ -288,6 +320,10 @@
         </div>
     </fieldset>
 </form>
+
+<div id="order-success" class="mfp-hide form">
+    <h5 class="form__txt">Спасибо за&nbsp;обращение в&nbsp;нашу клинику.<br> В&nbsp;ближайшее время мы свяжемся с&nbsp;вами.</h5>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="libs/swiper.min.js"></script>

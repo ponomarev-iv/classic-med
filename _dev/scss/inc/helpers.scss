@@ -45,3 +45,25 @@ sup{
   font-size: 12px;
   vertical-align: top;
 }
+
+//стили для поиска Яндекса
+#ya-site-results .b-serp-item__title, #ya-site-results .ad .ad-link{
+  display: inline-block;
+  padding-bottom: .5em;
+}
+
+.b-head{
+  display: none;
+}
+
+#ya-site-form0 .ya-site-form__form .ya-site-form__input-text{
+  padding: .25em .5em;
+}
+
+#ya-site-form0 .ya-site-form__submit_type_image{
+  width: 30px !important;
+  height: 30px !important;
+  background: url('../img/icon-search.svg') no-repeat scroll transparent 50% 50% !important;
+  position: relative;
+  margin-left: -30px !important;
+}

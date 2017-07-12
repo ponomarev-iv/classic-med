@@ -84,10 +84,38 @@ function popupGallery(){
     });
 }
 
+function sendForm() {
+    if($('#order-form').length){
+        $("#order-form").submit(function () {
+            $.ajax({
+                type: "POST",
+                url: "send.php",
+                data: $(this).serialize()
+            }).done(function () {
+
+                $("#order-form").trigger("reset");
+
+                $.magnificPopup.open({
+                    items: {
+                        src: '#order-success'
+                    },
+                    type: 'inline'
+                });
+            });
+            return false;
+        });
+    }
+    else {
+        return false;
+    }
+}
+
+
 
 $(document).ready(function(){
     swiperInit();
     mobileMenu();
     popupForm();
     popupGallery();
+    sendForm();
 });
