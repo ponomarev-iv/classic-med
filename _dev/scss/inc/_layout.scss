@@ -198,3 +198,12 @@ strong, b{
     }
   }
 }
+
+.articles{
+  padding: 3rem 0;
+  //text-align: center;
+
+  @include respondTo(small){
+    padding: 2rem 0;
+  }
+}

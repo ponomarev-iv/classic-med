@@ -209,3 +209,38 @@
     }
   }
 }
+
+.link{
+  color: $main-color;
+  text-decoration: underline;
+  transition: color ease .3s;
+
+  &:hover{
+    color: darken($main-color, 15%);
+  }
+}
+
+.more-link{
+  position: relative;
+  padding-right: 10px;
+  color: $main-color;
+  margin-top: 1em;
+  text-decoration: none;
+  transition: color ease .3s;
+  display: inline-block;
+  line-height: 1.2;
+
+  &:after{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 8px;
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
+    border-left: 1px solid $main-color;
+    border-bottom: 1px solid $main-color;
+    transform: rotate(225deg);
+    transition: all ease .3s;
+  }
+}
