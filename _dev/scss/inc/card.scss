@@ -60,6 +60,34 @@
       vertical-align: bottom;
     }
 
+    & .card__img{
+      width: 300px;
+
+      &_spina{
+        background: url('../img/bol-v-spine.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_girudo{
+        background: url('../img/girudoterapia-history.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_iglo{
+        background: url('../img/igloykalivanie.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_profilactica{
+        background: url('../img/profilactica.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_tonus{
+        background: url('../img/tonus.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_massag{
+        background: url('../img/massag.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+    }
+
     & .card__txt{
       font-size: .85em;
     }

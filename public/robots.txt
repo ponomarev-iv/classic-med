@@ -1,0 +1,7 @@
+Host: https://classic-med.ru/
+
+User-agent: *
+Disallow: /404.html
+Disallow: /libs/
+Disallow: /js/
+Disallow: /css/
