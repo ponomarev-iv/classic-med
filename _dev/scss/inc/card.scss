@@ -61,7 +61,43 @@
     }
 
     & .card__img{
-      width: 300px;
+      min-width: 250px;
+
+      &_igloukalyvanie{
+        background: url('../img/igloukalyvanie1.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_girudoterapii{
+        background: url('../img/osobennosti-girudoterapii.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_massazh{
+        background: url('../img/massazh.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_igloukalyvanie{
+        background: url('../img/igloukalyvanie.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_ozonoterapiya{
+        background: url('../img/ozonoterapiya.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_elektro-stimul{
+        background: url('../img/elektro-stimul.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_lfk{
+        background: url('../img/lfk.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_massag-detym{
+        background: url('../img/massag-detym.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_nevrolog{
+        background: url('../img/nevrolog.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
 
       &_spina{
         background: url('../img/bol-v-spine.jpg') no-repeat scroll transparent 50% 50% / cover;
