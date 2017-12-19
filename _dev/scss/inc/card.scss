@@ -63,6 +63,22 @@
     & .card__img{
       min-width: 250px;
 
+      &_shejnom-osteohondroz{
+        background: url('../img/shejnom-osteohondroz.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_gryzhu-massazh{
+        background: url('../img/gryzhu-massazh.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_metody-lecheniya{
+        background: url('../img/lecheniya-mezhpozvonochnoj-gryzhi.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_history-manual{
+        background: url('../img/istoriya-manualnoj-terapii.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
       &_igloukalyvanie{
         background: url('../img/igloukalyvanie1.jpg') no-repeat scroll transparent 50% 50% / cover;
       }
