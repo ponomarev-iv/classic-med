@@ -1,216 +1,203 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://classic-med.ru/</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/</loc>
+	<lastmod>2017-12-19T20:28:15+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/contact.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/contact.html</loc>
+	<lastmod>2017-12-19T20:28:16+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/doctors.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/doctors.html</loc>
+	<lastmod>2017-12-19T20:28:17+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/service.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/service.html</loc>
+	<lastmod>2017-12-19T20:28:17+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/price.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/price.html</loc>
+	<lastmod>2017-12-19T20:28:18+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/helpful.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/helpful.html</loc>
+	<lastmod>2017-12-19T20:28:19+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/girudoterapiya.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/girudoterapiya.html</loc>
+	<lastmod>2017-12-19T20:28:19+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/igloterapiya.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/igloterapiya.html</loc>
+	<lastmod>2017-12-19T20:28:20+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/manualnaya-terapiya.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/manualnaya-terapiya.html</loc>
+	<lastmod>2017-12-19T20:28:21+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/massazh.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/massazh.html</loc>
+	<lastmod>2017-12-19T20:28:21+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/medikamentoznye-blokady.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/medikamentoznye-blokady.html</loc>
+	<lastmod>2017-12-19T20:28:22+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/ozonoterapiya.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/ozonoterapiya.html</loc>
+	<lastmod>2017-12-19T20:28:23+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/chto-takoe-ozonoterapiya.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/samomassazh-pri-shejnom-osteohondroze.html</loc>
+	<lastmod>2017-12-19T20:28:23+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/sposoby-podgotovki-organizma-k-ehlektronejrostimulyacii.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/mozhno-lechit-mezhpozvonochnuyu-gryzhu-massazhem.html</loc>
+	<lastmod>2017-12-19T20:28:24+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/pokazaniya-i-protivopokazaniya-k-lechebnoj-fizkulture.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/metody-lecheniya-mezhpozvonochnoj-gryzhi.html</loc>
+	<lastmod>2017-12-19T20:28:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/kogda-detyam-neobhodim-lechebnyj-massazh.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/istoriya-manualnoj-terapii.html</loc>
+	<lastmod>2017-12-19T20:28:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/kogda-obrashchatsya-k-nevrologu.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/kogda-pribegayut-k-igloukalyvaniyu.html</loc>
+	<lastmod>2017-12-19T20:28:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/kak-snyat-napryazhenie-v-myshcah.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/osobennosti-girudoterapii.html</loc>
+	<lastmod>2017-12-19T20:28:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/mezhpozvonochnaya-gryzha.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/istoriya-lechebnogo-massazha.html</loc>
+	<lastmod>2017-12-19T20:28:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/prichiny-urologicheskih-zabolevanij.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/osnovnye-ehtapy-razvitiya-igloterapii.html</loc>
+	<lastmod>2017-12-19T20:28:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/vidy-lechebnogo-massazha.html</loc>
-  <lastmod>2017-10-23T17:52:55+00:00</lastmod>
+	<loc>https://classic-med.ru/chto-takoe-ozonoterapiya.html</loc>
+	<lastmod>2017-12-19T20:28:29+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/vidy-narushenij-myshechnogo-tonusa.html</loc>
-  <lastmod>2017-10-23T17:52:55+00:00</lastmod>
+	<loc>https://classic-med.ru/sposoby-podgotovki-organizma-k-ehlektronejrostimulyacii.html</loc>
+	<lastmod>2017-12-19T20:28:30+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/profilaktika-zabolevanij-pozvonochnika.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/pokazaniya-i-protivopokazaniya-k-lechebnoj-fizkulture.html</loc>
+	<lastmod>2017-12-19T20:28:30+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/kak-vozdejstvuet-igloukalyvanie.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/kogda-detyam-neobhodim-lechebnyj-massazh.html</loc>
+	<lastmod>2017-12-19T20:28:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/rasprostranennye-bolezni-spiny.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/kogda-obrashchatsya-k-nevrologu.html</loc>
+	<lastmod>2017-12-19T20:28:32+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/istoriya-girudoterapii.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/kak-snyat-napryazhenie-v-myshcah.html</loc>
+	<lastmod>2017-12-19T20:28:33+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/site-map.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/mezhpozvonochnaya-gryzha.html</loc>
+	<lastmod>2017-12-19T20:28:34+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/karboksiterapiya.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/prichiny-urologicheskih-zabolevanij.html</loc>
+	<lastmod>2017-12-19T20:28:34+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/magnitoterapiya.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/vidy-lechebnogo-massazha.html</loc>
+	<lastmod>2017-12-19T20:28:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/traktsionnaya-terapiya-pozvonochnika.html</loc>
-  <lastmod>2017-10-23T17:52:56+00:00</lastmod>
+	<loc>https://classic-med.ru/vidy-narushenij-myshechnogo-tonusa.html</loc>
+	<lastmod>2017-12-19T20:28:36+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/elektronejrostimulyatsiya.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/profilaktika-zabolevanij-pozvonochnika.html</loc>
+	<lastmod>2017-12-19T20:28:36+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/elektroforez.html</loc>
-  <lastmod>2017-10-23T17:52:57+00:00</lastmod>
+	<loc>https://classic-med.ru/kak-vozdejstvuet-igloukalyvanie.html</loc>
+	<lastmod>2017-12-19T20:28:37+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/doc/obrabotky.doc</loc>
-  <lastmod>2017-06-14T18:15:42+00:00</lastmod>
+	<loc>https://classic-med.ru/rasprostranennye-bolezni-spiny.html</loc>
+	<lastmod>2017-12-19T20:28:38+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/doc/dogovormeduslugi.doc</loc>
-  <lastmod>2017-06-14T18:15:31+00:00</lastmod>
+	<loc>https://classic-med.ru/istoriya-girudoterapii.html</loc>
+	<lastmod>2017-12-19T20:28:38+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/doc/soglasie.doc</loc>
-  <lastmod>2017-06-14T18:15:50+00:00</lastmod>
+	<loc>https://classic-med.ru/site-map.html</loc>
+	<lastmod>2017-12-19T20:28:39+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/doc/garantnew.doc</loc>
-  <lastmod>2017-06-14T18:15:43+00:00</lastmod>
+	<loc>https://classic-med.ru/karboksiterapiya.html</loc>
+	<lastmod>2017-12-19T20:28:40+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/doc/spisok-lek-skid.doc</loc>
-  <lastmod>2017-06-14T18:15:51+00:00</lastmod>
+	<loc>https://classic-med.ru/magnitoterapiya.html</loc>
+	<lastmod>2017-12-19T20:28:40+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/doc/kriterii-dostupnosti.doc</loc>
-  <lastmod>2017-06-14T18:15:41+00:00</lastmod>
+	<loc>https://classic-med.ru/traktsionnaya-terapiya-pozvonochnika.html</loc>
+	<lastmod>2017-12-19T20:28:41+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/doc/prikaz.rtf</loc>
-  <lastmod>2017-06-14T18:15:48+00:00</lastmod>
+	<loc>https://classic-med.ru/elektronejrostimulyatsiya.html</loc>
+	<lastmod>2017-12-19T20:28:42+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://classic-med.ru/doc/pamytka.doc</loc>
-  <lastmod>2017-06-14T18:15:42+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/inostr.doc</loc>
-  <lastmod>2017-06-14T18:15:40+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/jalob.doc</loc>
-  <lastmod>2017-06-14T18:15:40+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/konst.doc</loc>
-  <lastmod>2017-06-14T18:15:41+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/zakon-oms.doc</loc>
-  <lastmod>2017-06-14T18:15:52+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/fzakon.doc</loc>
-  <lastmod>2017-06-14T18:15:33+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/fzakon2.doc</loc>
-  <lastmod>2017-06-14T18:15:32+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/gos-program.pdf</loc>
-  <lastmod>2017-06-14T18:15:40+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/910.pdf</loc>
-  <lastmod>2017-06-14T18:15:30+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/1496.pdf</loc>
-  <lastmod>2017-06-14T18:15:31+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/prikaz_doc.docx</loc>
-  <lastmod>2017-06-14T18:15:49+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/post_280416.pdf</loc>
-  <lastmod>2017-06-14T18:16:09+00:00</lastmod>
-</url>
-<url>
-  <loc>http://classic-med.ru/doc/post_140916.doc</loc>
-  <lastmod>2017-06-14T18:15:44+00:00</lastmod>
+	<loc>https://classic-med.ru/elektroforez.html</loc>
+	<lastmod>2017-12-19T20:28:42+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 </urlset>
