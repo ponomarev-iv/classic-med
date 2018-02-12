@@ -1,0 +1,44 @@
+/**
+ * Created by Pompo on 12.02.2018.
+ */
+
+p{
+  line-height: 1.5;
+  margin-bottom: .75em;
+
+  &:last-of-type,
+  &.last{
+    margin-bottom: 0;
+  }
+}
+
+a{
+  outline: none !important;
+}
+
+strong, b{
+  font-weight: 700;
+}
+
+.section-title{
+  font-family: $Lora;
+  font-size: 2.5rem;
+  color: $black;
+  margin-bottom: .75em;
+
+  @include respondTo(small){
+    font-size: 1.25rem;
+  }
+}
+
+.content-title{
+  @extend .section-title;
+
+  font-size: 2rem;
+  margin-top: 1em;
+}
+
+.accent{
+  color: $main-color;
+  font-size: 1.3rem;
+}

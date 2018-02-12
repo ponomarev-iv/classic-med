@@ -1,0 +1,75 @@
+/**
+ * Created by Pompo on 12.02.2018.
+ */
+.price{
+  padding: 3rem 0;
+
+  &__wrap{
+    background-color: $white;
+    border-radius: .5rem;
+    padding: 1.25rem;
+
+    @include respondTo(small){
+      background-color: transparent;
+      border-radius: 0;
+      padding: 0;
+    }
+  }
+
+  &__table{
+    margin-bottom: 5rem;
+
+    @include respondTo(small){
+      margin-bottom: 2.5rem;
+    }
+
+    &:last-of-type{
+      margin-bottom: 2rem;
+    }
+
+    & tr{
+      background-color: #ffffff;
+
+      &:first-of-type{
+        background-color: #dddddd !important;
+      }
+
+      &:nth-child(2n + 1){
+        background-color: #f5f5f5;
+      }
+    }
+
+    & td,
+    & th{
+      height: 42px;
+      vertical-align: middle;
+      font-size: 16px;
+      border-bottom: 1px solid #ccc;
+      padding: .5em .8em;
+      line-height: 1.5;
+
+      @include respondTo(small){
+        height: 38px;
+        font-size: 14px;
+      }
+
+      &:nth-child(2n){
+        text-align: right;
+        font-weight: 700;
+        font-size: 1.25rem;
+      }
+    }
+
+    & th{
+      font-weight: 700;
+      text-align: center;
+      font-family: $Lora;
+      padding: 1em .8em;
+      font-size: 1.2em;
+
+      &:nth-child(2n){
+        text-align: center;
+      }
+    }
+  }
+}

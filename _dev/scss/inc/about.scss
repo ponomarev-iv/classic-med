@@ -1,0 +1,54 @@
+/**
+ * Created by Pompo on 12.02.2018.
+ */
+.about{
+  padding: 3rem 0;
+
+  &__wrap{
+    @extend %clearfix;
+  }
+
+  &__slider{
+    width: 50%;
+    float: left;
+    text-align: center;
+
+
+    @include respondTo(tablet){
+      width: 100%;
+      float: none;
+      margin-top: 20px;
+    }
+
+    & .order-popup{
+      margin: 1rem auto;
+
+    }
+  }
+
+  &__txt{
+    width: 50%;
+    float: right;
+    padding-left: 2rem;
+    box-sizing: border-box;
+
+
+    @include respondTo(tablet){
+      width: 100%;
+      float: none;
+      padding-left: 0;
+    }
+  }
+
+  & .swiper-slide img{
+    border-radius: .5rem;
+    border: 2px solid $white;
+    box-sizing: border-box;
+  }
+
+  & h1{
+    @extend .content-title;
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+}

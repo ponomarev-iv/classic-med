@@ -1,0 +1,40 @@
+/**
+ * Created by Pompo on 12.02.2018.
+ */
+.service{
+  padding: 3rem 0;
+  text-align: center;
+
+  @include respondTo(small){
+    padding: 2rem 0;
+  }
+
+  &__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: .75rem;
+
+    & .card{
+      width: 45%;
+
+      &:hover{
+        & .card__img img{
+          transform: scale(1.1);
+        }
+      }
+
+      @include respondTo(mobile){
+        width: 48%;
+      }
+
+      @include respondTo(small){
+        width: 100%;
+
+        & .card__img img{
+          min-width: 100%;
+        }
+      }
+    }
+  }
+}

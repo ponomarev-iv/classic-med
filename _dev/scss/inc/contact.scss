@@ -1,0 +1,94 @@
+/**
+ * Created by Pompo on 12.02.2018.
+ */
+.contact{
+  padding: 3rem 0;
+
+  &__wrap{
+    background-color: $white;
+    border-radius: .5rem;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+
+    @include respondTo(mobile){
+      flex-direction: column;
+    }
+  }
+
+  &__col{
+    width: 50%;
+
+    @include respondTo(mobile){
+      width: 100%;
+
+      &:first-child{
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    @include respondTo(small){
+      flex-direction: column;
+    }
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    & .btn{
+      margin: 0 auto;
+    }
+  }
+
+  &__data{
+    font-weight: 700;
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: right;
+    width: 35%;
+    line-height: 1.5;
+    white-space: nowrap;
+
+    @include respondTo(small){
+      font-size: 1.2rem;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__txt{
+    font-size: 1.1em;
+    display: inline-block;
+    width: 60%;
+    line-height: 1.5;
+    white-space: nowrap;
+
+    @include respondTo(small){
+      width: 100%;
+      text-align: center;
+    }
+
+    &_gray{
+      opacity: .7;
+      font-size: .9em;
+
+      @include respondTo(tablet){
+        display: none;
+      }
+
+      @include respondTo(mobile){
+        display: inline-block;
+      }
+
+      @include respondTo(small){
+        display: none;
+      }
+    }
+  }
+}
