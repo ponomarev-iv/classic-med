@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Контактная информация с картой и формой обратной связи" />
-    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <meta name="description" content="Контактная информация с картой и формой обратной связи"/>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png">
     <title>Контактная информация | Клиника Классической медицины</title>
     <link href="https://fonts.googleapis.com/css?family=Lora:700|Marck+Script|PT+Sans:400,700&amp;subset=cyrillic"
           rel="stylesheet">
@@ -15,177 +15,188 @@
 
 <div class="wrapper">
 
-<header class="header">
-    <div class="c-wrap">
-        <div class="header__logo">
-            <a href="/" class="logo">
-                Клиника классической медицины
-            </a>
-            <span class="slogan"><i>Ж</i>изнь без боли...</span>
+    <header class="header">
+        <div class="c-wrap" itemscope itemtype="http://schema.org/Organization">
+            <div class="header__logo">
+                <a href="/" class="logo" itemprop="name">
+                    Клиника классической медицины
+                </a>
+                <span class="slogan"><i>Ж</i>изнь&nbsp;без&nbsp;боли...</span>
+            </div>
+            <div class="header__phone">
+                <a href="tel:+73422590003" class="header-phone" itemprop="telephone">+7 (342) <span>259-00-03</span></a><br>
+                <a href="tel:+73422010203" class="header-phone" itemprop="telephone">+7 (342) <span>201-02-03</span></a>
+            </div>
+            <div class="header__location" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <span itemprop="addressLocality">г.&nbsp;Пермь</span>,<span itemprop="streetAddress">&nbsp;ул.&nbsp;Голева,&nbsp;9a</span><br>
+                <a href="/contact.html#map" class="view-map">Посмотреть на карте</a>
+            </div>
+    
+            <div class="mobile-btn js-mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="mobile-menu js-mobile-menu">
+                <a href="/">О клинике</a>
+                <a href="/doctors.html">Врачи</a>
+                <a href="/service.html">Услуги</a>
+                <a href="/price.html">Цены</a>
+                <a href="/articles.html">Статьи</a>
+                <a href="/helpful.html">Полезное</a>
+                <a href="/contact.html">Контакты</a>
+            </div>
         </div>
-        <div class="header__phone">
-            <a href="tel:+73422590003" class="header-phone">+7 (342) <span>259-00-03</span></a><br>
-            <a href="tel:+73422010203" class="header-phone">+7 (342) <span>201-02-03</span></a>
+    </header>
+    <nav class="navigation">
+        <div class="c-wrap">
+            <div class="navigation__wrap">
+                <a href="/">О клинике</a>
+                <a href="/doctors.html">Врачи</a>
+                <a href="/service.html">Услуги</a>
+                <a href="/price.html">Цены</a>
+                <a href="/articles.html">Статьи</a>
+                <a href="/helpful.html">Полезное</a>
+                <a href="/contact.html">Контакты</a>
+            </div>
         </div>
-        <div class="header__location">
-            г.&nbsp;Пермь,&nbsp;ул.&nbsp;Голева,&nbsp;9a<br>
-            <a href="contact.html#map" class="view-map">Посмотреть на карте</a>
+    </nav>
+
+    <!-- START breadcrumbs -->
+    <section class="breadcrumbs">
+        <div class="c-wrap">
+            <a href="/" class="breadcrumbs__item">Главная</a>
+            <span class="breadcrumbs__item">Контактная информация</span>
         </div>
+    </section>
+    <!-- END breadcrumbs -->
 
-        <div class="mobile-btn js-mobile">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+    <!-- START contact-block -->
+    <section class="contact content">
+        <div class="c-wrap">
+            <h1 class="section-title">Контактная информация</h1>
 
-        <div class="mobile-menu js-mobile-menu">
-            <a href="/">О клинике</a>
-            <a href="doctors.html">Врачи</a>
-            <a href="service.html">Услуги</a>
-            <a href="price.html">Цены</a>
-            <a href="helpful.html">Полезное</a>
-            <a href="contact.html">Контакты</a>
-        </div>
-    </div>
-</header>
+            <div class="contact__wrap">
+                <div class="contact__col">
+                    <div class="contact__row">
+                        <span class="contact__data">Адрес:</span>
+                        <span class="contact__txt">г.&nbsp;Пермь, ул.&nbsp;Голева, 9а</span>
+                    </div>
 
-<nav class="navigation">
-    <div class="c-wrap">
-        <div class="navigation__wrap">
-            <a href="/">О клинике</a>
-            <a href="/doctors.html">Врачи</a>
-            <a href="/service.html" >Услуги</a>
-            <a href="/price.html" >Цены</a>
-            <a href="/helpful.html">Полезное</a>
-            <a href="/contact.html" class="is-active">Контакты</a>
-        </div>
-    </div>
-</nav>
+                    <div class="contact__row">
+                        <span class="contact__data">E-mail:</span>
+                        <a href="mailto:c.classmed@yandex.ru" class="contact__txt">c.classmed@yandex.ru</a>
+                    </div>
 
-<!-- START price -->
-<section class="contact content">
-    <div class="c-wrap">
-        <h1 class="section-title">Контактная информация</h1>
-        
-        <div class="contact__wrap">
-            <div class="contact__col">
-                <div class="contact__row">
-                    <span class="contact__data">Адрес:</span>
-                    <span class="contact__txt">г.&nbsp;Пермь, ул.&nbsp;Голева, 9а</span>
-                </div>
+                    <div class="contact__row">
+                        <span class="contact__data">Режим работы:</span>
+                        <span class="contact__txt">пн-пт: 8:00 до 19:00<br>сб-вс: выходной</span>
+                    </div>
 
-                <div class="contact__row">
-                    <span class="contact__data">E-mail:</span>
-                    <a href="mailto:c.classmed@yandex.ru" class="contact__txt">c.classmed@yandex.ru</a>
-                </div>
+                    <div class="contact__row">
 
-                <div class="contact__row">
-                    <span class="contact__data">Режим работы:</span>
-                    <span class="contact__txt">пн-пт: 8:00 до 19:00<br>сб-вс: выходной</span>
-                </div>
-
-                <div class="contact__row">
-
-                    <span class="contact__data">Телефоны:</span>
-                    <span class="contact__txt">
+                        <span class="contact__data">Телефоны:</span>
+                        <span class="contact__txt">
                             +7(342)259-00-03 <span class="contact__txt_gray">(регистратура)</span><br>
                             +7(342)259-03-56 <span class="contact__txt_gray">(регистратура)</span><br>
                             +7(342)201-02-03<br>
                             +7(342)201-28-41 <span class="contact__txt_gray">(бухгалтерия)</span>
                         </span>
+                    </div>
+                </div>
+                <div class="contact__col">
+                    <div class="contact__row" style="display: flex; justify-content: center">
+                        <script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
+
+                        <!-- VK Widget -->
+                        <div id="vk_groups"></div>
+                        <script type="text/javascript">
+                            VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1}, 139863643);
+                        </script>
+
+                    </div>
+                    <div class="contact__row">
+                        <a href="#order-form" class="btn order-popup js-popup-form">Записаться на приём</a>
+                    </div>
                 </div>
             </div>
-            <div class="contact__col">
-                <div class="contact__row" style="display: flex; justify-content: center">
-                    <script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
 
-                    <!-- VK Widget -->
-                    <div id="vk_groups"></div>
-                    <script type="text/javascript">
-                        VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1}, 139863643);
-                    </script>
-
-                </div>
-                <div class="contact__row">
-                    <a href="#order-form" class="btn order-popup js-popup-form">Записаться на приём</a>
-                </div>
-            </div>
         </div>
+    </section>
+    <!-- END contact-block -->
 
+    <div id="map" class="map">
+        <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abfc60b2ca027013521d74ffc7ef6f95af00c9be9b5b51e70163f8ca18d258fc6&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
-</section>
 
-<div id="map" class="map">
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abfc60b2ca027013521d74ffc7ef6f95af00c9be9b5b51e70163f8ca18d258fc6&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
-</div>
 
-<!-- END doctor-item -->
-
-<footer class="footer">
-    <div class="c-wrap">
-        <div class="footer__row">
-            <div class="footer__col">
-                <div class="footer__nav">
-                    <ul>
-                        <li><a href="/">О клинике</a></li>
-                        <li><a href="service.html">Услуги</a></li>
-                        <li><a href="doctors.html">Врачи</a></li>
-                        <li><a href="price.html">Цены</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="helpful.html">Полезная инфомрация</a></li>
-                        <li><a href="contact.html">Контактная информация</a></li>
-                        <li><a href="site-map.html">Карта сайта</a></li>
-                        <li>
-                            <div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'http://classic-med.ru/search.html','arrow':false,'bg':'transparent','fontsize':16,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск по classic-med.ru','suggest':true,'target':'_self','tld':'ru','type':3,'usebigdictionary':true,'searchid':2301235,'input_fg':'#333333','input_bg':'#f0efed','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту...','input_placeholderColor':'#333333','input_borderColor':'#ffffff'}"><form action="https://yandex.ru/search/site/" method="get" target="_self" accept-charset="utf-8"><input type="hidden" name="searchid" value="2301235"/><input type="hidden" name="l10n" value="ru"/><input type="hidden" name="reqenc" value=""/><input type="search" name="text" value=""/><input type="submit" value="Найти"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
-                        </li>
-                    </ul>
+    <footer class="footer">
+        <div class="c-wrap">
+            <div class="footer__row">
+                <div class="footer__col">
+                    <div class="footer__nav">
+                        <ul>
+                            <li><a href="/">О клинике</a></li>
+                            <li><a href="/service.html">Услуги</a></li>
+                            <li><a href="/doctors.html">Врачи</a></li>
+                            <li><a href="/price.html">Цены</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="/helpful.html">Полезная инфомрация</a></li>
+                            <li><a href="/contact.html">Контактная информация</a></li>
+                            <li><a href="/site-map.html">Карта сайта</a></li>
+                            <li>
+                                <div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'http://classic-med.ru/search.html','arrow':false,'bg':'transparent','fontsize':16,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск по classic-med.ru','suggest':true,'target':'_self','tld':'ru','type':3,'usebigdictionary':true,'searchid':2301235,'input_fg':'#333333','input_bg':'#f0efed','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту...','input_placeholderColor':'#333333','input_borderColor':'#ffffff'}"><form action="https://yandex.ru/search/site/" method="get" target="_self" accept-charset="utf-8"><input type="hidden" name="searchid" value="2301235"/><input type="hidden" name="l10n" value="ru"/><input type="hidden" name="reqenc" value=""/><input type="search" name="text" value=""/><input type="submit" value="Найти"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="footer__col">
+                    <p class="footer__txt">ВОЗМОЖНЫ ПРОТИВОПОКАЗАНИЯ.<br> ТРЕБУЕТСЯ КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА</p><br>
+                    <a href="tel:+73422590003" class="footer__phone">+7 (342) <span>259-00-03</span></a><br>
+                    <p class="footer__location">г. Пермь, ул. Голева, 9a</p>
                 </div>
             </div>
-
-            <div class="footer__col">
-                <p class="footer__txt">ВОЗМОЖНЫ ПРОТИВОПОКАЗАНИЯ.<br> ТРЕБУЕТСЯ КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА</p><br>
-                <a href="tel:+73422590003" class="footer__phone">+7 (342) <span>259-00-03</span></a><br>
-                <p class="footer__location">г. Пермь, ул. Голева, 9a</p>
-            </div>
+            <p class="copyright">
+                &copy;&nbsp;2018 &laquo;Клиника классической медицины&raquo;. Все права защищены.
+            </p>
         </div>
-        <p class="copyright">
-            &copy;&nbsp;2018 &laquo;Клиника классической медицины&raquo;. Все права защищены.
-        </p>
-    </div>
-</footer>
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter45021103 = new Ya.Metrika({
-                    id:45021103,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/45021103" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+    </footer>
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter45021103 = new Ya.Metrika({
+                        id:45021103,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+                    });
+                } catch(e) { }
+            });
+    
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+    
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/45021103" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </div>
 <form id="order-form" class="mfp-hide form">
     <h5 class="form__title">Запись на приём</h5>
@@ -220,6 +231,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="libs/swiper.min.js"></script>
 <script src="libs/magnific.min.js"></script>
-<script src="js/main.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>

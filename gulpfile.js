@@ -29,13 +29,13 @@ var path = {
         scss: '_dev/scss/',
         img: '_dev/img/*.*',
         js: '_dev/js/*.js',
-        html: '_dev/*.html'
+        html: '_dev/page/**/*.html'
     },
     watch: {
         style: '_dev/scss/**/*.scss',
         img: '_dev/img/*.*',
         js: '_dev/js/*',
-        html: '_dev/*.html'
+        html: '_dev/**/*.*'
     },
     clean: 'public/'
 };

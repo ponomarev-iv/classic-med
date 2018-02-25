@@ -1,0 +1,28 @@
+ErrorDocument 404 /404.html
+<ifModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault "access plus 5 seconds"
+	ExpiresByType image/x-icon "access plus 2592000 seconds"
+	ExpiresByType image/jpeg "access plus 2592000 seconds"
+	ExpiresByType image/svg "access plus 2592000 seconds"
+	ExpiresByType image/png "access plus 2592000 seconds"
+	ExpiresByType text/css "access plus 604800 seconds"
+	ExpiresByType text/javascript "access plus 604800 seconds"
+	ExpiresByType application/javascript "access plus 604800 seconds"
+	ExpiresByType application/x-javascript "access plus 604800 seconds"
+	ExpiresByType text/html "access plus 43200 seconds"
+</ifModule>
+
+Options +FollowSymLinks
+RewriteEngine On
+Redirect 301 /girudoterapiya.html https://classic-med.ru/uslugi/girudoterapiya.html
+Redirect 301 /igloterapiya.html https://classic-med.ru/uslugi/igloterapiya.html
+Redirect 301 /manualnaya-terapiya.html https://classic-med.ru/uslugi/manualnaya-terapiya.html
+Redirect 301 /massazh.html https://classic-med.ru/uslugi/massazh.html
+Redirect 301 /medikamentoznye-blokady.html https://classic-med.ru/uslugi/medikamentoznye-blokady.html
+Redirect 301 /ozonoterapiya.html https://classic-med.ru/uslugi/ozonoterapiya.html
+Redirect 301 /karboksiterapiya.html https://classic-med.ru/uslugi/karboksiterapiya.html
+Redirect 301 /magnitoterapiya.html https://classic-med.ru/uslugi/magnitoterapiya.html
+Redirect 301 /traktsionnaya-terapiya-pozvonochnika.html https://classic-med.ru/uslugi/traktsionnaya-terapiya-pozvonochnika.html
+Redirect 301 /elektronejrostimulyatsiya.html https://classic-med.ru/uslugi/elektronejrostimulyatsiya.html
+Redirect 301 /elektroforez.html https://classic-med.ru/uslugi/elektroforez.html

@@ -27,7 +27,7 @@ body{
 }
 
 .section{
-  padding: 3rem 0;
+  padding: 2rem 0 3rem;
 }
 
 .c-wrap{
@@ -38,19 +38,24 @@ body{
   width: 100%;
   position: relative;
   box-sizing: border-box;
+  overflow: hidden;
 
   @extend %clearfix;
 }
 
 .articles{
-  padding: 3rem 0;
-  //text-align: center;
+  padding: 2rem 0;
 
   @include respondTo(small){
     padding: 2rem 0;
   }
+
+  & .btn-more{
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .service-section{
-  padding: 3rem 0;
+  padding: 2rem 0 3rem;
 }

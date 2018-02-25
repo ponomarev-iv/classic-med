@@ -36,6 +36,10 @@
     line-height: 1.2;
     color: $main-color;
     font-weight: 700;
+
+    @include respondTo(mobile){
+      font-size: 1.2rem;
+    }
   }
 
   &__txt{
@@ -62,6 +66,26 @@
 
     & .card__img{
       min-width: 250px;
+
+      &_27{
+        background: url('../img/stadii-razvitiya-mezhpozvonochnoj-gryzhi.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_26{
+        background: url('../img/psihoehmocionalnoe-sostoyanie-cheloveka.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_25{
+        background: url('../img/lechenie-mezhpozvonochnoj-gryzhi.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_24{
+        background: url('../img/pokazaniya-i-protivopokazaniya-k-manualnoj-terapii.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
+      &_23{
+        background: url('../img/lechebnye-blokady.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
 
       &_shejnom-osteohondroz{
         background: url('../img/shejnom-osteohondroz.jpg') no-repeat scroll transparent 50% 50% / cover;
@@ -172,7 +196,7 @@
 
 //карточка доктора
 .doctor-card{
-  padding: 3rem 0;
+  padding: 2rem 0 3rem;
 
   &__wrap{
     background-color: $white;

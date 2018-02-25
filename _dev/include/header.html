@@ -1,18 +1,18 @@
 <header class="header">
-    <div class="c-wrap">
+    <div class="c-wrap" itemscope itemtype="http://schema.org/Organization">
         <div class="header__logo">
-            <a href="/" class="logo">
+            <a href="/" class="logo" itemprop="name">
                 Клиника классической медицины
             </a>
-            <span class="slogan"><i>Ж</i>изнь без боли...</span>
+            <span class="slogan"><i>Ж</i>изнь&nbsp;без&nbsp;боли...</span>
         </div>
         <div class="header__phone">
-            <a href="tel:+73422590003" class="header-phone">+7 (342) <span>259-00-03</span></a><br>
-            <a href="tel:+73422010203" class="header-phone">+7 (342) <span>201-02-03</span></a>
+            <a href="tel:+73422590003" class="header-phone" itemprop="telephone">+7 (342) <span>259-00-03</span></a><br>
+            <a href="tel:+73422010203" class="header-phone" itemprop="telephone">+7 (342) <span>201-02-03</span></a>
         </div>
-        <div class="header__location">
-            г.&nbsp;Пермь,&nbsp;ул.&nbsp;Голева,&nbsp;9a<br>
-            <a href="contact.html#map" class="view-map">Посмотреть на карте</a>
+        <div class="header__location" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">г.&nbsp;Пермь</span>,<span itemprop="streetAddress">&nbsp;ул.&nbsp;Голева,&nbsp;9a</span><br>
+            <a href="/contact.html#map" class="view-map">Посмотреть на карте</a>
         </div>
 
         <div class="mobile-btn js-mobile">
@@ -26,11 +26,12 @@
 
         <div class="mobile-menu js-mobile-menu">
             <a href="/">О клинике</a>
-            <a href="doctors.html">Врачи</a>
-            <a href="service.html">Услуги</a>
-            <a href="price.html">Цены</a>
-            <a href="helpful.html">Полезное</a>
-            <a href="contact.html">Контакты</a>
+            <a href="/doctors.html">Врачи</a>
+            <a href="/service.html">Услуги</a>
+            <a href="/price.html">Цены</a>
+            <a href="/articles.html">Статьи</a>
+            <a href="/helpful.html">Полезное</a>
+            <a href="/contact.html">Контакты</a>
         </div>
     </div>
 </header>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png">
+    <title>Результаты поиска</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:700|Marck+Script|PT+Sans:400,700&amp;subset=cyrillic"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<div class="wrapper">
+
+    //= ../include/header.html
+    //= ../include/navigation.html
+    <!-- START breadcrumbs -->
+    <section class="breadcrumbs">
+        <div class="c-wrap">
+            <a href="/" class="breadcrumbs__item">Главная</a>
+            <span class="breadcrumbs__item">Поиск</span>
+        </div>
+    </section>
+    <!-- END breadcrumbs -->
+
+    <!-- START price -->
+    <section class="contact content">
+        <div class="c-wrap">
+            <h1 class="section-title">Результаты поиска</h1>
+
+            <div class="contact__wrap">
+                <div class="row">
+                    <div id="ya-site-results" onclick="return {'tld': 'ru','language': 'ru','encoding': '','htmlcss': '1.x','updatehash': true}"></div>
+                    <script type="text/javascript">(function (w, d, c) {
+                        var s = d.createElement('script'), h = d.getElementsByTagName('script')[0];
+                        s.type = 'text/javascript';
+                        s.async = true;
+                        s.charset = 'utf-8';
+                        s.src = (d.location.protocol === 'https:' ? 'https:' : 'http:') + '//site.yandex.net/v2.0/js/all.js';
+                        h.parentNode.insertBefore(s, h);
+                        (w[c] || (w[c] = [])).push(function () {
+                            Ya.Site.Results.init();
+                        })
+                    })(window, document, 'yandex_site_callbacks');</script>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END doctor-item -->
+
+    //= ../include/footer.html
+</div>
+//= ../include/order-popup.html
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="libs/swiper.min.js"></script>
+<script src="libs/magnific.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
