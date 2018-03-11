@@ -6,38 +6,42 @@ function swiperInit() {
     if ($('.swiper-container').length) {
 
 
-        var mySwiper = new Swiper('.swiper-container', {
-            // Optional parameters
-            autoplay: 4000,
+        var mySwiper = new Swiper('#main-slider', {
+            autoplay: {
+                delay: 3000
+            },
 
-            // If we need pagination
-            pagination: '.swiper-pagination',
-            paginationClickable: true
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            }
         });
 
-        var mySwiper = new Swiper('.swiper-doctor', {
-            slidesPerView: 4,
-            spaceBetween: 20,
+        var mySwiper = new Swiper('#swiper-doctor', {
+            slidesPerView: 3,
+            spaceBetween: 32,
 
             breakpoints: {
-                // when window width is <= 320px
+
                 480: {
                     slidesPerView: 1
                 },
-                // when window width is <= 480px
+
                 768: {
                     slidesPerView: 2,
                     spaceBetween: 20
                 },
-                // when window width is <= 640px
+
                 1024: {
                     slidesPerView: 3,
                     spaceBetween: 20
                 }
             },
 
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev'
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            }
         })
     }
 }

@@ -24,7 +24,7 @@ strong, b{
   font-family: $Lora;
   font-size: 2.5rem;
   color: $black;
-  margin-bottom: .75em;
+  margin-bottom: 1em;
 
   @include respondTo(small){
     font-size: 1.25rem;

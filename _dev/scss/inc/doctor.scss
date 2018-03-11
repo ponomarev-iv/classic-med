@@ -2,11 +2,15 @@
  * Created by Pompo on 12.02.2018.
  */
 .doctor{
-  padding: 3rem 0;
+  padding: 4rem 0;
   text-align: center;
 
   @include respondTo(small){
     padding: 2rem 0;
+  }
+
+  & .card__title{
+    font-size: 1.3rem;
   }
 
 

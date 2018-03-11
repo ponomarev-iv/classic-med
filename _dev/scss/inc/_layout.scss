@@ -44,16 +44,19 @@ body{
 }
 
 .articles{
-  padding: 2rem 0;
+  padding: 4rem 0;
 
   @include respondTo(small){
     padding: 2rem 0;
   }
 
+  &_sm-pad{
+    padding: 2rem 0 3rem;
+  }
+
   & .btn-more{
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 20px;
   }
 }
 
