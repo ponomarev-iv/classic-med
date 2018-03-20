@@ -73,6 +73,10 @@
     & .card__img{
       min-width: 250px;
 
+      &_30{
+        background: url('../img/profilaktika-razvitiya-mezhpozvonkovoj-gryzhi.jpg') no-repeat scroll transparent 50% 50% / cover;
+      }
+
       &_29{
         background: url('../img/protivopokazaniya-k-provedeniyu-massazha.jpg') no-repeat scroll transparent 50% 50% / cover;
       }
